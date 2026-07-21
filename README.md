@@ -6,7 +6,7 @@ A \*\*Transformerless Power Supply PCB\*\* designed using \*\*KiCad 10\*\*. This
 
 
 
-> \*\*⚠️ Warning:\*\* This is a transformerless power supply connected directly to AC mains. It is intended for educational purposes only. Handle with proper electrical safety precautions.
+> ⚠️ \*\*Warning:\*\* This project is directly connected to AC mains. It is intended for educational purposes only. Handle it with proper electrical safety precautions.
 
 
 
@@ -14,15 +14,15 @@ A \*\*Transformerless Power Supply PCB\*\* designed using \*\*KiCad 10\*\*. This
 
 
 
-\# 📖 Project Overview
+\## 📖 Project Overview
 
 
 
-This PCB is designed to provide a compact and low-cost regulated \*\*5V DC power supply\*\* without using a bulky transformer.
+This PCB provides a compact and low-cost regulated \*\*5V DC power supply\*\* without using a bulky transformer.
 
 
 
-The design includes:
+\### Features
 
 
 
@@ -46,7 +46,7 @@ The design includes:
 
 
 
-\# 🛠 Software Used
+\## 🛠 Software Used
 
 
 
@@ -64,7 +64,7 @@ The design includes:
 
 
 
-\# 🔩 Components Used
+\## 🔩 Components Used
 
 
 
@@ -86,7 +86,7 @@ The design includes:
 
 | LED | 1 |
 
-| LM7805 | TO-220 Voltage Regulator |
+| LM7805 | TO-220 |
 
 | Resistors | 1MΩ, 20kΩ ×2, 2.2kΩ |
 
@@ -98,63 +98,23 @@ The design includes:
 
 
 
-\# ✨ Features
+\## 📂 Repository Structure
 
 
 
-\- ✔ Transformerless AC to DC Converter
-
-\- ✔ Regulated 5V Output
-
-\- ✔ Bridge Rectifier using 1N4007 Diodes
-
-\- ✔ Capacitor Dropper Design
-
-\- ✔ Zener Protection
-
-\- ✔ LED Power Indicator
-
-\- ✔ Through-Hole PCB Layout
-
-\- ✔ Ready for PCB Fabrication
-
-
-
-\---
-
-
-
-\# 📂 Repository Structure
-
-
-
-```
+```text
 
 Transformerless-Power-Supply-KiCad/
-
-│
 
 ├── Gerber/
 
 ├── Images/
 
-│   ├── Schematic\_Layout.png
-
-│   ├── PCB\_Layout.png
-
-│   ├── 3D\_PCB\_Frontview.png
-
-│   ├── 3D\_PCB\_Backview.png
-
-│   └── Footprints.png
-
-│
-
-├── Transformerless\_powersupply.kicad\_sch
-
 ├── Transformerless\_powersupply.kicad\_pcb
 
 ├── Transformerless\_powersupply.kicad\_pro
+
+├── Transformerless\_powersupply.kicad\_sch
 
 ├── README.md
 
@@ -168,11 +128,11 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-\# 📷 Project Images
+\## 📷 Project Images
 
 
 
-\## Schematic
+\### Schematic
 
 
 
@@ -180,11 +140,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-\---
-
-
-
-\## PCB Layout
+\### PCB Layout
 
 
 
@@ -192,11 +148,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-\---
-
-
-
-\## 3D Front View
+\### 3D Front View
 
 
 
@@ -204,11 +156,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-\---
-
-
-
-\## 3D Back View
+\### 3D Back View
 
 
 
@@ -216,11 +164,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-\---
-
-
-
-\## Footprints
+\### Footprints
 
 
 
@@ -232,15 +176,11 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-\# 📦 Gerber Files
+\## 📦 Gerber Files
 
 
 
-The \*\*Gerber\*\* folder contains all manufacturing files required for PCB fabrication.
-
-
-
-Included files:
+The \*\*Gerber\*\* folder contains all PCB manufacturing files:
 
 
 
@@ -262,27 +202,15 @@ Included files:
 
 
 
-\# ⚠️ Safety
+\## ⚠️ Safety
 
 
 
-This project is directly connected to \*\*AC mains voltage\*\*.
+This circuit is connected directly to \*\*AC mains voltage\*\*.
 
 
 
-It is intended only for:
-
-
-
-\- Educational purposes
-
-\- PCB Design Practice
-
-\- Learning KiCad
-
-
-
-Do \*\*not\*\* use this circuit without proper isolation and electrical safety precautions.
+Use it \*\*only for educational and learning purposes\*\*.
 
 
 
@@ -290,7 +218,7 @@ Do \*\*not\*\* use this circuit without proper isolation and electrical safety p
 
 
 
-\# 👨‍💻 Author
+\## 👨‍💻 Author
 
 
 
@@ -314,5 +242,5 @@ Do \*\*not\*\* use this circuit without proper isolation and electrical safety p
 
 
 
-If you found this project helpful, please consider giving this repository a \*\*Star ⭐\*\*.
+If you found this project helpful, please give this repository a \*\*Star ⭐\*\*.
 
