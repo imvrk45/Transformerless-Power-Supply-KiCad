@@ -6,7 +6,7 @@ A \*\*Transformerless Power Supply PCB\*\* designed using \*\*KiCad 10\*\*. This
 
 
 
-> ⚠️ \*\*Warning:\*\* This project is directly connected to AC mains. It is intended for educational purposes only. Handle it with proper electrical safety precautions.
+> ⚠️ \*\*Warning:\*\* This project is directly connected to AC mains voltage. It is intended only for educational purposes. Handle with proper electrical safety precautions.
 
 
 
@@ -52,9 +52,9 @@ This PCB provides a compact and low-cost regulated \*\*5V DC power supply\*\* wi
 
 \- KiCad 10
 
-\- PCB Editor
-
 \- Schematic Editor
+
+\- PCB Editor
 
 \- 3D Viewer
 
@@ -84,9 +84,9 @@ This PCB provides a compact and low-cost regulated \*\*5V DC power supply\*\* wi
 
 | Zener Diodes | 2 |
 
-| LED | 1 |
-
 | LM7805 | TO-220 |
+
+| LED | 1 |
 
 | Resistors | 1MΩ, 20kΩ ×2, 2.2kΩ |
 
@@ -152,7 +152,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-!\[3D Front](Images/3D\_PCB\_Frontview.png)
+!\[3D Front View](Images/3D\_PCB\_Frontview.png)
 
 
 
@@ -160,7 +160,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-!\[3D Back](Images/3D\_PCB\_Backview.png)
+!\[3D Back View](Images/3D\_PCB\_Backview.png)
 
 
 
@@ -180,7 +180,7 @@ Transformerless-Power-Supply-KiCad/
 
 
 
-The \*\*Gerber\*\* folder contains all PCB manufacturing files:
+The \*\*Gerber\*\* folder contains all files required for PCB fabrication:
 
 
 
@@ -206,11 +206,15 @@ The \*\*Gerber\*\* folder contains all PCB manufacturing files:
 
 
 
-This circuit is connected directly to \*\*AC mains voltage\*\*.
+This is a \*\*transformerless power supply\*\*, directly connected to AC mains.
 
 
 
-Use it \*\*only for educational and learning purposes\*\*.
+\- Use only for educational purposes.
+
+\- Do not touch the circuit while powered.
+
+\- Always follow electrical safety precautions.
 
 
 
@@ -226,11 +230,11 @@ Use it \*\*only for educational and learning purposes\*\*.
 
 
 
-🎓 B.Tech – Electrical \& Electronics Engineering (EEE)
+B.Tech – Electrical \& Electronics Engineering (EEE)
 
 
 
-🔗 GitHub: https://github.com/imvrk45
+GitHub: https://github.com/imvrk45
 
 
 
@@ -242,5 +246,5 @@ Use it \*\*only for educational and learning purposes\*\*.
 
 
 
-If you found this project helpful, please give this repository a \*\*Star ⭐\*\*.
+If you found this project helpful, please consider giving this repository a \*\*Star ⭐\*\*.
 
